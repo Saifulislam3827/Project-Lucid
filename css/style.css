@@ -1,0 +1,569 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/**** Header Section Code Start ***/
+
+.header-section{
+	width: 100%;
+	background: url(../images/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light {
+
+    background-color: transparent !important;
+    padding: 18px 0px;
+
+}
+
+.header-section .navbar-light .navbar-nav .active > .nav-link {
+    color: #fff;
+    background: url(../images/line.png) center bottom no-repeat;
+    font-size: 14px;
+    font-weight: 600;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 8px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	background: url(../images/line.png) center bottom no-repeat;
+	transition: 0.5s;
+	color: #10C8F1;
+}
+.banner {
+	width: 100%;
+	padding: 95px 0px;
+}
+.banner-inner{
+	width: 100%;
+	padding: 20px 0px;
+}
+.banner-inner h4{
+	font-size: 12px;
+	line-height: 30px;
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+.banner-inner h1{
+	font-size: 40px;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.banner-inner p{
+	font-size: 16px;
+	color: #808081;
+	font-weight: 400;
+
+}
+.btn-div{
+	width: 100%;
+}
+.btn-div .btn-info{
+	text-transform: uppercase;
+	padding: 15px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #008ed6;
+	border: 1px solid #008ed6;
+	border-radius: 3px;
+	margin-right: 18px;
+
+}
+.btn-div .btn-info:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.5s ease-in;
+
+}
+.btn-div .btn-primary{
+	text-transform: uppercase;
+	padding: 15px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #008ed6;
+	border: 1px solid #008ed6;
+	border-radius: 3px;
+
+}
+.btn-div .btn-primary:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.5s ease-in;
+
+}
+/**** Header Section Code Ends ***/
+
+/**** Feature Section Code Start ***/
+
+.feature-section{
+	width: 100;
+	padding: 40px 0px;
+}
+.feature-title{
+
+}
+.feature-title h4{
+	font-size: 10px;
+	line-height: 30px;
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 800;
+
+}
+.feature-title h1{
+	font-size: 30px;
+	color: #1a1a1a;
+	font-weight: 500;
+	margin-bottom: 18px;
+}
+.feature-inner{
+	width: 100%;
+	padding: 50px 10px;
+	text-align: center;
+}
+.inner-feature{
+	width: 70px;
+	height: 70px;
+	margin: 15px auto;
+	border: 1px solid #eee;
+	border-radius: 50%;
+	line-height: 70px;
+	text-align: center;
+}
+.feature-inner h4{
+	font-weight: 500;
+	line-height: 30px;
+	font-size: 18px;
+}
+.feature-inner p{
+	color: #999999;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+
+/**** Feature Section Code Ends ***/
+
+/**** About Section Code Starts ***/
+
+.about-section{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.about-right{
+	width: 100%;
+}
+.about-inner{
+	width: 100%;
+	margin-top: 40px;
+}
+.about-inner h4{
+	font-size: 14px;
+	line-height: 24px;
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.about-inner h1{
+	font-size: 30px;
+	line-height: 32px;
+	color: #1a1a1a;
+	font-weight: 500;
+}
+.about-inner p{
+	color: #999999;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 20px 0px;
+}
+.about-btn{
+	width: 100%;
+	margin-top: 15px;
+}
+.about-btn p{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+}
+.about-btn img{
+	margin-right: 15px;
+}
+
+/**** About Section Code Ends ***/
+
+/**** Short Section Code starts ***/
+
+.short-section{
+	width: 100%;
+	padding: 50px 0px;
+	background-color: #f2f2f2
+}
+.short-inner{
+	width: 100%;
+	margin-top: 40px;
+}
+.short-inner h4{
+	font-size: 14px;
+	line-height: 24px;
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.short-inner h1{
+	font-size: 30px;
+	line-height: 32px;
+	color: #1a1a1a;
+	font-weight: 500;
+}
+.short-inner p{
+	color: #999999;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 15px 0px;
+}
+
+/**** Short Section Code Ends ***/
+
+/**** Testimonial Section Code Stars ***/
+
+.testimonial{
+	width: 100%;
+	padding: 60px 0px;
+	background: url(../images/Testimonials.png) center top no-repeat;
+	background-size: cover;
+}
+.testimonial .feature-title{
+	margin-bottom: 50px;
+}
+.testimonial .feature-title h1{
+	color: #fff;
+}
+.testimonial .owl-carousel{
+	padding: 20px 0px;
+}
+.testi-inner{
+	width: 100%;
+	padding: 20px 10px;
+}
+.testi-inner h4{
+	color: #fff;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+.testi-inner .media{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.testi-inner .media img{
+	width: 50px;	
+}
+.testi-inner .media .media-body h5{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 5px;
+}
+.testi-inner .media .media-body p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	margin-left: 5px;
+}
+
+/**** Testimonial Section Code Ends ***/
+
+/**** Highlight Section Code stars ***/
+
+.highlight{
+	width: 100%;
+	padding: 40px, 50px;
+	background: #000;
+}
+.highlight h2{
+	color: #fff;
+	font-size: 32px;
+	line-height: 44px;
+	font-weight: 400;
+	margin: 40px 0px;
+}
+.highlight .btn-div{
+	width: 100%;
+	margin: 40px 0px;
+}
+.highlight .btn-div .btn-info{
+	text-transform: uppercase;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #008ed6;
+	border: 1px solid #008ed6;
+	border-radius: 3px;
+
+}
+.highlight .btn-div .btn-info:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.5s ease-in;
+
+}
+.highlight .btn-div .btn-primary{
+	text-transform: uppercase;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #008ed6;
+	border: 1px solid #008ed6;
+	border-radius: 3px;
+	margin-right: 18px;
+
+}
+.highlight .btn-div .btn-primary:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.5s ease-in;
+}
+/**** Highlight Section Code ends ***/
+
+/**** Price Section Code Stars ***/
+
+.price{
+	width: 100%;
+	padding: 80px 0px;
+}
+.price .feature-title{
+	width: 100%;
+	padding: 0px 0px 50px;
+}
+.price .feature-title h4{
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.price .feature-title h1{
+	font-size: 35px;
+	line-height: 42px;
+	color: #000;
+	font-weight: 600;
+}
+}
+.price .main-price{
+	width: 100;
+}
+.price .main-price .card .card-header{
+    background: transparent;
+    padding: 20px 0px;
+}
+.price .main-price .card .card-header h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px;
+}
+.price .main-price .card .card-body{
+	padding: 0px;
+}
+.price .main-price .card .card-body .title-price{
+	padding: 30px 0px;
+}
+.price .main-price .card .card-title{
+	margin-bottom: 0px;
+}
+.price .main-price .card .card-title h1{
+	font-size: 50px;
+	margin: 0px;
+	font-weight: 600;
+}
+.main-price .card .card-title p{
+	font-size: 16px;
+	margin: 0px;
+	color: #bfbfbf;
+	font-weight: 400;
+}
+.price-inner {
+    width: 100%;
+    padding: 40px 20px 20px;
+    border-top: 1px solid #bfbfbf;
+}
+.price-inner .card-text{
+	color: #bfbfbf;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.price-inner a{
+	color: #008ed6;
+}
+.price-inner .btn-primary{
+	text-transform: uppercase;
+	padding: 10px 30px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #bfbfbf;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+.main-price:hover .card-header h3{
+	color: #008ed6;
+}
+.main-price:hover .title-price{
+	background: #008ed6;
+	color: #fff;
+}
+.main-price:hover .title-price .card-title h1{
+	color: #fff;
+}
+.main-price:hover .title-price .card-title p{
+	color: #fff;
+}
+.main-price:hover .btn-primary{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+/**** Price Section Code Ends ***/
+
+/**** Contact Section Code Starts ***/
+
+.contact-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ededed;
+}
+.contact-section .feature-title{
+	padding: 0px 0px 40px;
+}
+.contact-section .feature-title h4{
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.contact-section .feature-title h1{
+	font-size: 35px;
+	line-height: 42px;
+	color: #000;
+	font-weight: 600;
+}
+.contact-section .inner-contact{
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+}
+.contact-section .inner-contact p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+	margin-top: 20px;
+}
+.main-form{
+	width: 100%;
+	padding: 50px 70px;
+	background: #000;
+	margin-bottom: -150px;
+	margin-top: 20px;
+}
+.main-form .form-control {
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #444348;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #444348;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.main-form textarea.form-control {
+    height: 160px;
+}
+.main-form .btn-info{
+	padding: 10px 25px;
+	background: #008ed6;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.main-form .btn-info:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.5s ease-in;
+}
+/**** Contact Section Code Ends ***/
+
+.map{
+	width: 100%;
+	margin-bottom: -10px;
+}
+
+/**** Footer Section Code Starts ***/
+
+.footer-section{
+	width: 100%;
+	padding: 50px 0px;
+	background: #000;
+	text-align: center;
+}
+
+.footer-section .social-icon{
+	background: transparent;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+.social-icon ul li a{
+	padding: 20px 15px;
+	background: transparent;
+}
+.footer-section h3{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+/**** Footer Section Code Ends ***/
